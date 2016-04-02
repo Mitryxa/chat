@@ -16,6 +16,7 @@ public class IndexPageTest {
     public void startWebDriver() {
         WebDriver driver = new FirefoxDriver(new FirefoxBinary(new File("E:/Andrew/Firefox/firefox.exe")),  new FirefoxProfile());
         driver.navigate().to("http://seleniumsimplified.com");
+ //       driver.navigate().to("http://localhost:8080/");
         assertTrue(driver.getTitle().startsWith("Selenium Simplified"));
 
         driver.close();
