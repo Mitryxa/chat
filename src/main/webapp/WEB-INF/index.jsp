@@ -10,15 +10,26 @@
             crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col-md-4 col-md-offset-4">
-            <h2>Hello World!</h2>
-            <button type="button" class="btn btn-default btn-lg">
-                <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star
-            </button>
-        </div>
-    </div>
+    <h2 style="text-align: center;">Hi there! Welcome to chat app!</h2>
+<br>
+<br>
+<div class="col-md-4 col-md-offset-4">
+    <form name="registration" action="script/request.php" method="post">
+        <label>
+            <input type="text" name="firstname" value="Your name">
+        </label>
+        <br>
+        <label>
+            <input type="password" name="pass" value="Password">
+        </label>
+        <br>
+        <label>
+            Accept the terms and conditions
+            <input type="checkbox" name="terms" value="yes">
+        </label>
+        <br>
+        <input type="button" name="start" value="Start" onclick="location.href='/WEB-INF/test.jsp'">
+    </form>
 </div>
 </body>
 </html>
