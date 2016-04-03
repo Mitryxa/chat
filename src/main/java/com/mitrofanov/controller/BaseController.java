@@ -10,8 +10,11 @@ public class BaseController{
     public String velcome(Model model){
         return "index";
     }
+    @RequestMapping(value="test")
+    public String goToTest(Model model){
 
-
+        return "test";
+    }
 
 
 }

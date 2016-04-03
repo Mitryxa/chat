@@ -14,22 +14,13 @@
 <br>
 <br>
 <div class="col-md-4 col-md-offset-4">
-    <form name="registration" action="script/request.php" method="post">
-        <label>
-            <input type="text" name="firstname" value="Your name">
-        </label>
+    <form name="registration" action="/test" method="post">
+        <label for="name"> Enter your name (optional).</label >
         <br>
-        <label>
-            <input type="password" name="pass" value="Password">
-        </label>
-        <br>
-        <label>
-            Accept the terms and conditions
-            <input type="checkbox" name="terms" value="yes">
-        </label>
-        <br>
-        <input type="button" name="start" value="Start" onclick="location.href='/WEB-INF/test.jsp'">
+            <input id = "name" type="text" name="firstName">
+        <input type="submit" name="start" >
     </form>
+
 </div>
 </body>
 </html>
