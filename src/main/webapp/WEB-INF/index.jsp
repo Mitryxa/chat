@@ -14,11 +14,11 @@
 <br>
 <br>
 <div class="col-md-4 col-md-offset-4">
-    <form name="registration" action="/test" method="post">
+    <form method="post">
         <label for="name"> Enter your name (optional).</label >
         <br>
             <input id = "name" type="text" name="firstName">
-        <input type="submit" name="start" >
+        <input type="submit">
     </form>
 
 </div>
